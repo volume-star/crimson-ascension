@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "crimson_ascension:bloodletting_dagger"
+    },
+    "title": {
+      "translate": "advancements.crimson_ascension.root.title"
+    },
+    "description": {
+      "translate": "advancements.crimson_ascension.root.description"
+    },
+    "background": "minecraft:textures/block/netherrack.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "joined_world": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "crimson_ascension:bloodletting_dagger",
+      "crimson_ascension:blood_vial",
+      "crimson_ascension:blood_condensation_altar",
+      "crimson_ascension:bone_rune_formation"
+    ]
+  }
+}

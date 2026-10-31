@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+logoFile="crimson_ascension.png"
+authors="viyella"
+description='''
+Blood is the catalyst. Slaughter is the scripture.
+
+Walk the grotesque Blood Dao of Minecraft: harvest the essence of living beings, arrange rituals of bone,
+and face the corruption that follows every step toward immortality. Your ascent may make you a true
+immortal, or leave you as a mindless fiend.
+
+Your Dao is written in blood.
+'''
+
+[[mixins]]
+config="${mod_id}.mixins.json"
+
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"

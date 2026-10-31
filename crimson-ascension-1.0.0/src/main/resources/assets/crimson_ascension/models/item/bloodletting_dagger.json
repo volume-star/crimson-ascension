@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "crimson_ascension:item/bloodletting_dagger"
+  }
+}
